@@ -1,0 +1,5 @@
+npx create-react-app axios-lab
+cd axios-lab
+npm install axios
+npm install -g json-server  //install globally
+// npm install json-server //locally 
