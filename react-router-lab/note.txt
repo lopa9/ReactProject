@@ -1,0 +1,41 @@
+Create React project
+1. npx create-react-app react-router-lab
+
+2. cd react -router-lab
+3. install axios
+4. npm install axios
+
+Setup a temporary database
+ Install the json-server package to hold a json file as the temp db.
+Install it locally and globally both
+
+
+5. npm install -g json-server
+npm install json-server
+
+6. npm install react-router-dom
+
+src/components/ make all the files
+-DeletePerson.js
+-NotFound.js
+-Notification.js
+-PersonAdd.js
+-PersonDetail.js
+-PersonEdit.js
+-PersonList.js
+
+react-router-lab/src/styles / make files
+-PersonDetails.css
+-PersonEdit.css
+-PersonList.css
+
+edit the files
+App.js
+App.css
+
+
+terminal-1 
+json-server --watch db.json --port 3001
+
+terminal-2
+npm run start

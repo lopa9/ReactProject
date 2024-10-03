@@ -10,7 +10,7 @@ import './App.css'; // Parent styles
 
 const App = () => {
     return (
-        <Router>(This component wraps your entire application and enables React Router. It listens to the browser's address bar and synchronizes the UI with the current URL.)
+        <Router>
             <div className="box-container">
                 <Routes>(The Routes component is used to define all the different routes (URLs) of your app. Each route renders a different component based on the path in the URL.)
                     <Route path="/" element={<PersonList />} />(The Route component defines a specific route in your app. When the URL matches the path specified, it renders the component passed to the element prop.)
