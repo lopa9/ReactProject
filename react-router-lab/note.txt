@@ -39,3 +39,9 @@ json-server --watch db.json --port 3001
 
 terminal-2
 npm run start
+
+install .env
+7. npm install dotenv
+
+terminal - 1
+npm run db 
