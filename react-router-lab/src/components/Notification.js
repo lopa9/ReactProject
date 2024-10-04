@@ -6,7 +6,7 @@ import React from 'react';
 import axios from 'axios';
 
 const notification = () => {
-  const output = axios.get("https://5000-lopa9-reactproject-7hmxmiw2yp8.ws-us116.gitpod.io/persons");
+  const output = axios.get("https://5000-lopa9-reactproject-uvf5uyxwoly.ws-us116.gitpod.io/persons");
   console.log(output);
   
   const API_URL=process.env.REACT_APP_API_URL
